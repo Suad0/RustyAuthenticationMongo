@@ -1,0 +1,13 @@
+[package]
+name = "rusty_authentication"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mongodb = "2.8.1"
+bson = "2.9.0"
+serde = { version = "1.0.197", features = ["derive"] }
+actix-web = "4.5.1"
+bcrypt = "0.15.1"
